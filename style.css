@@ -1,0 +1,59 @@
+/** Tamaño general **/
+html {
+    font-size: 62.5%;
+    /**reset para REMS - 62.5 = 10 px **/
+}
+
+
+
+
+
+button {
+    margin-bottom: 0.2cm;
+    width: 4cm;
+    height: 0.6cm;
+    
+}
+
+
+.fondo{
+    background-image: url(fondo2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: white;
+}
+
+h3 {
+    font-size: 2.6rem;
+    color: white;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.barra{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 3rem;
+}
+
+.barra2{
+    justify-content: flex-start;
+    
+}
