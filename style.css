@@ -8,30 +8,39 @@ html {
 
 
 
-button{
+button {
     margin-bottom: .2cm;
     width: 3cm;
-    height: 1cm; 
+    height: 1cm;
     background: hsl(0, 0%, 100%);
     border: 2px solid #ffffff;
 }
 
-button a:hover{
-color: rgb(255, 255, 255);
+button a:hover {
+    color: rgb(255, 255, 255);
 }
 
-button a{
+button a {
     text-decoration: none;
 }
 
 
 
+.contenedor {
+    display: flex;
+}
+
+#portada {
+    width: 70%;
+}
+
+#indice {
+    width: 30%;
+}
 
 
 
-
-
-.fondo{
+.fondo {
     background-image: url(fondo.jpg);
     background-position: center center;
     background-size: cover;
@@ -62,13 +71,18 @@ h3 {
 }
 
 
-.barra{
+.barrainicio {
     display: flex;
     justify-content: flex-end;
     padding-top: 3rem;
 }
 
-.barra2{
+.barraindice {
+    display: flex;
+    justify-content: center;
+}
+
+.barra2 {
     justify-content: flex-start;
-    
+
 }
