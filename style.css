@@ -8,16 +8,31 @@ html {
 
 
 
-button {
-    margin-bottom: 0.2cm;
-    width: 4cm;
-    height: 0.6cm;
-    
+button{
+    margin-bottom: .2cm;
+    width: 3cm;
+    height: 1cm; 
+    background: hsl(0, 0%, 100%);
+    border: 2px solid #ffffff;
+}
+
+button a:hover{
+color: rgb(255, 255, 255);
+}
+
+button a{
+    text-decoration: none;
 }
 
 
+
+
+
+
+
+
 .fondo{
-    background-image: url(fondo2.jpg);
+    background-image: url(fondo.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;

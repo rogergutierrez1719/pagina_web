@@ -1,5 +1,15 @@
 button{
-    margin-bottom: .5cm;
+    margin-bottom: .2cm;
     width: 3cm;
-    height: 1cm;
+    height: 1cm; 
+    background: rgb(204, 207, 211);
+    border: 2px solid #8b8b8b;
 }
+button a:hover{
+color: white;
+}
+
+button a{
+    text-decoration: none;
+}
+
