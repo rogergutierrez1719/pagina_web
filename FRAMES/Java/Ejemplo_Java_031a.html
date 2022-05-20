@@ -1,0 +1,45 @@
+<html>
+  <script language="JavaScript">
+    //  Ejemplo_Java_031a.html
+    var num, bien, notanum, notacual;
+    num = parseInt(prompt("Escribe el número total de preguntas", ""));
+    bien = parseInt(prompt("Escribe el número de respuestas acertadas", ""));
+    notanum = parseInt((10 * bien) / num);
+    switch (notanum) {
+      case 0:
+      case 1:
+        notacual = "Muy Deficiente";
+        break;
+      case 2:
+        notacual = "Muy Deficiente";
+        break;
+      case 3:
+        notacual = "Deficiente";
+        break;
+      case 4:
+        notacual = "Deficiente";
+        break;
+      case 5:
+        notacual = "Insuficiente";
+        break;
+      case 6:
+        notacual = "Suficiente";
+        break;
+      case 7:
+        notacual = "Bien";
+        break;
+      case 8:
+        notacual = "Notable";
+        break;
+      case 9:
+        notacual = "Notable";
+        break;
+      case 10:
+        notacual = "Excelente";
+        break;
+        notacual = "Matricula de Honor";
+        break;
+    }
+    alert("La nota cualitativa es " + notacual);
+  </script>
+</html>
