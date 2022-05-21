@@ -1,0 +1,19 @@
+button{
+    margin-bottom: .2cm;
+    width: 4cm;
+    height: 1cm; 
+    background: rgb(198, 234, 250);
+    border: 2px solid #9c9999;
+}
+button a:hover{
+color: white;
+}
+
+button a{
+    text-decoration: none;
+}
+
+.orden{
+    text-align: center;
+}
+
