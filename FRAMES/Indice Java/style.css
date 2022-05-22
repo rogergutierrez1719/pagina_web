@@ -2,11 +2,12 @@ button{
     margin-bottom: .2cm;
     width: 4cm;
     height: 1cm; 
-    background: rgb(198, 234, 250);
-    border: 2px solid #9c9999;
+    background: rgb(255, 255, 255);
+    border: 2px solid #fa9817;
+    
 }
 button a:hover{
-color: white;
+color: #fa9817;
 }
 
 button a{
@@ -26,3 +27,14 @@ button a{
     margin-right: 1cm;
 }
 
+#fondojava{
+    background-image: url(./fondo\ java\ 1.png);
+    background-position: center center;
+    background-size: cover;
+    height: 1000px;
+    min-height: 600px;
+}
+
+h1{
+    color: white;
+}

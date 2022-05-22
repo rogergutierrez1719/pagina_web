@@ -31,10 +31,12 @@ button a {
 }
 
 #portada {
+    padding-top: 3.5rem;
     width: 70%;
 }
 
 #indice {
+    padding-top: 3.5rem;
     width: 30%;
 }
 
@@ -71,18 +73,3 @@ h3 {
 }
 
 
-.barrainicio {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 3rem;
-}
-
-.barraindice {
-    display: flex;
-    justify-content: center;
-}
-
-.barra2 {
-    justify-content: flex-start;
-
-}
