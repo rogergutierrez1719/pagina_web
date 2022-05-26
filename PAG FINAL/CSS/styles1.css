@@ -25,12 +25,11 @@ h3 {
 }
 
 .header-imagen{
-    background-image:url(../Imagenes/header.png);
+    background-image: url(../Imagenes/Header.png);
     background-size: cover;
     background-position: center center;
     height: 100vh;
-    min-height: 60rem;
-    
+    min-height: 60rem;   
 }
 
 .header-contenido{
@@ -50,12 +49,6 @@ h3 {
 }
 
 
-.barra{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 3rem;
-}
 
 /** TEXTO**/
 
