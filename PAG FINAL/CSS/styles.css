@@ -1,0 +1,44 @@
+
+
+body{
+    font-family: 'Noto Sans', sans-serif;/*ltras*/
+}
+
+/** GLOBAL**/
+
+.contenedor{
+    max-width: 1200px; /*tomar lo min de la pantalla para centar(que cabe bien)*/
+    margin-left: auto; /*margenes de la pag*/
+    margin-right: auto; /*margen para centrar*/
+}
+
+/* HEADER */    
+.site-header.inicio{
+background-image: url(../Imagenes/Header.png);
+height: 100vh; /*para que se vea toda la imagen*/
+min-height: 600px; /*eset es para lo minimo de la ventana*/
+background-position: center center;
+background-size: cover; /*imagen centrada*/
+}
+
+.barra{
+    display: flex; /*sea flexible*/
+    justify-content: flex-end; /*posicion del contenido*/
+    padding-top: 40px;
+}
+
+/*Navegación*/
+.navegacion a{ /*la a es para los elementos*/
+ color: white;
+ text-decoration: none;
+ font-size: 20px;
+ margin-right: 10px;
+}
+
+.navegacion a:hover{
+    color: #FFE433;
+}
+
+.navegacion a:last-of-type{ /*para que el último no tenga espacio*/
+  margin: 0;
+}
