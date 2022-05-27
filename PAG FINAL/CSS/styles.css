@@ -1,38 +1,94 @@
-
-
+html{
+    font-size: 62.5%; /*reset para rems 62.5 = 10px*/
+} 
 body{
     font-family: 'Noto Sans', sans-serif;/*ltras*/
+    font-size: 1.6rem; /*etras de antes */
 }
 
 /** GLOBAL**/
 
+img{
+    max-width: 100%;
+}
+
 .contenedor{
-    max-width: 1200px; /*tomar lo min de la pantalla para centar(que cabe bien)*/
+    max-width: 120rem; /*tomar lo min de la pantalla para centar(que cabe bien)*/
     margin-left: auto; /*margenes de la pag*/
     margin-right: auto; /*margen para centrar*/
 }
 
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.7rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+h4{
+    font-size: 2.1rem;
+}
+
+/**UTILIDADESssssssssssss**/
+
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+.centrar-texto{
+text-align: center;
+}
+
+
+
+
 /* HEADER */    
 .site-header.inicio{
-background-image: url(../Imagenes/Header.png);
+background-image: url(../Imagenes/fondotacos.png);
 height: 100vh; /*para que se vea toda la imagen*/
-min-height: 600px; /*eset es para lo minimo de la ventana*/
+min-height: 60rem; /*eset es para lo minimo de la ventana*/
 background-position: center center;
 background-size: cover; /*imagen centrada*/
 }
 
+
+.contenedor-header{
+    display: flex;
+    flex-direction: column; 
+    height: 100%; /*tomar todo el contenido*/
+    justify-content: space-between; /*direccion de contenido "este es al final" */
+}
+
+.contenedor-header h1{
+    color: white;
+    padding-bottom: 2rem; /*espacio de el final y título*/
+    max-width: 60rem; /*es para el espacio*/
+    line-height: 2;
+}
+
+
+
+/*ordenar elementos horizontalmente*/
 .barra{
     display: flex; /*sea flexible*/
     justify-content: flex-end; /*posicion del contenido*/
-    padding-top: 40px;
+    padding-top: 4rem;
 }
 
 /*Navegación*/
 .navegacion a{ /*la a es para los elementos*/
  color: white;
  text-decoration: none;
- font-size: 20px;
- margin-right: 10px;
+ font-size: 2rem;
+ margin-right: 1rem;
 }
 
 .navegacion a:hover{
@@ -42,3 +98,19 @@ background-size: cover; /*imagen centrada*/
 .navegacion a:last-of-type{ /*para que el último no tenga espacio*/
   margin: 0;
 }
+
+/**iconos nosotros**/
+
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+    flex-basis: calc(33.3% - 1rem);  /*para acomodar elementos porcentaje*/
+    text-align: center;
+}
+.icono h3{
+    text-transform: uppercase;
+}
+
