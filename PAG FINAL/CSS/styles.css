@@ -1,6 +1,11 @@
 html{
     font-size: 62.5%; /*reset para rems 62.5 = 10px*/
+    box-sizing: border-box;  /*respetar pixeles*/
 } 
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body{
     font-family: 'Noto Sans', sans-serif;/*ltras*/
     font-size: 1.6rem; /*etras de antes */
@@ -31,6 +36,7 @@ h4{
     font-size: 2.1rem;
 }
 
+
 /**UTILIDADESssssssssssss**/
 
 .seccion{
@@ -47,8 +53,31 @@ h4{
 text-align: center;
 }
 
+.d-block{
+    display: block!important; /*boton más grande es importante*/
+}
 
 
+/*BOTONES*/
+
+.boton{
+color: #ffffff;
+font-weight: 700;
+text-decoration: none;
+font-size: 1.8rem;
+padding: 1rem 3rem; /*este no lo toma*/
+margin-top: 3rem; /*este menos*/
+display: inline-block; /*con este si lo deja*/ /*pero acorta boton*/
+text-align: center;
+}
+
+.boton-azul{
+background-color: #759eff;
+}
+
+.boton-naranja{
+    background-color: #ffa43a;
+}
 
 /* HEADER */    
 .site-header.inicio{
@@ -76,12 +105,14 @@ background-size: cover; /*imagen centrada*/
 
 
 
-/*ordenar elementos horizontalmente*/
-.barra{
+
+.barra{/*ordenar elementos horizontalmente*/
     display: flex; /*sea flexible*/
     justify-content: flex-end; /*posicion del contenido*/
     padding-top: 4rem;
 }
+
+
 
 /*Navegación*/
 .navegacion a{ /*la a es para los elementos*/
@@ -114,3 +145,53 @@ background-size: cover; /*imagen centrada*/
     text-transform: uppercase;
 }
 
+/*CONTENEDOR ANUNCIOS*/
+
+.contenedor-anuncios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.anuncio{
+    flex-basis: calc(33.3% - 1rem);
+    border-style: solid;
+    border-color: #B5B5B5;
+    border-width: 1px;
+    background-color: #F5F5F5;
+}
+
+.contenido-anuncio{
+    padding: 2rem;  /*separación de anuncio bordes*/
+}
+
+.contenido-anuncio{
+    margin: 0; /*quitar espacio de título imagen*/
+}
+
+.contenido-anuncio h3, .contenido-anunciop{
+margin: 0;
+}
+
+.precio{
+    color: #ffa43a;
+    font-weight: 700;
+}
+
+/*SUCURSAL*/
+
+.imagen-sucursal{
+    background-image: url(../Imagenes/sucursal.png);
+    height: 40rem;
+    background-position: center center; /*centrar*/
+    background-size: cover; /*se vea toda imagen*/
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto{
+    flex: 1; /*divide todo y asigna los pixeles correspindientes*/
+    color: white;
+}
+.contenido-contacto p{
+    font-size: 1.8rem;
+}
