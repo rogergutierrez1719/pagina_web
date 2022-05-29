@@ -181,7 +181,7 @@ margin: 0;
 
 .imagen-sucursal{
     background-image: url(../Imagenes/sucursal.png);
-    height: 40rem;
+    height: 30rem;
     background-position: center center; /*centrar*/
     background-size: cover; /*se vea toda imagen*/
     display: flex;
@@ -194,4 +194,39 @@ margin: 0;
 }
 .contenido-contacto p{
     font-size: 1.8rem;
+}
+
+
+
+/**SECCIÓN INFERIOR**/
+
+.seccion-inferior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog{
+    flex-basis: 60%;
+}
+
+.seccion-inferior .testimoniales{
+    flex-basis: calc(40% - 2rem);
+}
+
+.entrada-blog{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog .imagen{
+    flex-basis: 40%;
+}
+
+.entrada-blog .texto-blog{
+    flex-basis: calc(60% - 3rem);
+}
+.texto-blog h4{
+    margin: 0;
+    line-height: 1.4;
 }
