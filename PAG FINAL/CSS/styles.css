@@ -302,3 +302,34 @@ margin: 0;
    .navegacion2 a:last-of-type{ /*para que el último no tenga espacio*/
      margin: 0;
    }
+
+
+
+/**HEADER-NOTROS**/
+
+.header-nosotros{
+    background-color: #313131;
+}
+
+
+.barra-nosotros{/*ordenar elementos horizontalmente*/
+    display: flex; /*sea flexible*/
+    justify-content: flex-end; /*posicion del contenido*/
+    padding: 2.5rem;
+}
+
+/** CONTENIDO-NOSOTROS**/
+
+.seccion-nosotros{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-nosotros{
+    flex-basis: calc(50% - 1rem);
+}
+
+.contenido-nosotros{
+    flex-basis: 50%;
+    padding-top: 2rem;
+}
