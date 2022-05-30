@@ -216,17 +216,89 @@ margin: 0;
 .entrada-blog{
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .entrada-blog .imagen{
     flex-basis: 40%;
+    padding: 0.5rem;
 }
 
-.entrada-blog .texto-blog{
+.entrada-blog .texto-entrada{
     flex-basis: calc(60% - 3rem);
 }
-.texto-blog h4{
+
+.texto-entrada h4{
     margin: 0;
     line-height: 1.4;
 }
+
+.texto-entrada a{
+    color: black;
+    text-decoration: none;
+}
+
+.texto-entrada h4::after{     /**línea negra**/
+    content: '';
+    display: block;
+    width: auto;
+    height: 0.2rem;
+    background-color: black;
+    margin-top: 1rem;
+}
+
+.texto-entrada span{
+    color: rgb(0, 69, 219);
+}
+
+/**TESTIMONIALES**/
+
+.testimonial{
+    background-color: rgb(0, 69, 219);
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: white;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem ;
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+}
+
+.testimonial p{
+    text-align: right;
+}
+
+/**FOTER**/
+
+.site-footer{
+    background-color: #313131;
+    margin: 0;
+}
+
+.contenedor-footer{
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrigth{
+    margin: 0;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+.navegacion2 a{ /*la a es para los elementos*/
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+   }
+   
+   .navegacion2 a:hover{
+       color: #000000;
+   }
+   
+   .navegacion2 a:last-of-type{ /*para que el último no tenga espacio*/
+     margin: 0;
+   }
