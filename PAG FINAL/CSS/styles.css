@@ -79,7 +79,12 @@ background-color: #759eff;
     background-color: #ffa43a;
 }
 
-/* HEADER */    
+/* HEADER */ 
+.site-header{
+    background-color: #313131;
+    padding: 1rem 0 3rem 0;
+}
+
 .site-header.inicio{
 background-image: url(../Imagenes/fondotacos.png);
 height: 100vh; /*para que se vea toda la imagen*/
@@ -288,48 +293,21 @@ margin: 0;
 }
 
 
-.navegacion2 a{ /*la a es para los elementos*/
-    color: white;
-    text-decoration: none;
-    font-size: 1.6rem;
-    margin-right: 1rem;
-   }
-   
-   .navegacion2 a:hover{
-       color: #000000;
-   }
-   
-   .navegacion2 a:last-of-type{ /*para que el último no tenga espacio*/
-     margin: 0;
-   }
 
-
-
-/**HEADER-NOTROS**/
-
-.header-nosotros{
-    background-color: #313131;
-}
-
-
-.barra-nosotros{/*ordenar elementos horizontalmente*/
-    display: flex; /*sea flexible*/
-    justify-content: flex-end; /*posicion del contenido*/
-    padding: 2.5rem;
-}
-
-/** CONTENIDO-NOSOTROS**/
-
-.seccion-nosotros{
-    display: flex;
-    justify-content: center;
-}
-
-.imagen-nosotros{
-    flex-basis: calc(50% - 1rem);
-}
+/**INTERNAS**/
 
 .contenido-nosotros{
-    flex-basis: 50%;
-    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /**para hacer columnas**/
+    grid-column-gap: 2rem; /** este es para la separacion de las columnas**/
+
 }
+
+.texto-nosotros blockquote{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 3rem 0;
+}
+
+
