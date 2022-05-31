@@ -159,14 +159,19 @@ background-size: cover; /*imagen centrada*/
 .contenedor-anuncios{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .anuncio{
+
+    flex-shrink: 0;
     flex-basis: calc(33.3% - 1rem);
     border-style: solid;
     border-color: #B5B5B5;
     border-width: 1px;
     background-color: #F5F5F5;
+    margin-bottom: 2rem;
 }
 
 .contenido-anuncio{
