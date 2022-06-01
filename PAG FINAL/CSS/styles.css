@@ -80,6 +80,7 @@ background-color: #759eff;
 }
 
 .boton-verde{
+    margin: 0;
     background-color: rgba(42, 233, 42, 0.856);
 }
 
@@ -119,6 +120,16 @@ background-size: cover; /*imagen centrada*/
     display: flex; /*sea flexible*/
     justify-content: flex-end; /*posicion del contenido*/
     padding-top: 4rem;
+}
+
+.barra-imagen{/*ordenar elementos horizontalmente*/
+    display: flex; /*sea flexible*/
+    justify-content: space-between; /*posicion del contenido*/
+    padding-top: 4rem;
+}
+
+.imagen-encabezado{
+    width: 10%;
 }
 
 
