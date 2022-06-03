@@ -113,6 +113,9 @@ background-size: cover; /*imagen centrada*/
     line-height: 2;
 }
 
+.contenido-centrado{  /**para centrar cosas**/
+    max-width: 800px;
+}
 
 
 
